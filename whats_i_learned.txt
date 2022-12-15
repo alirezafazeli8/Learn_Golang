@@ -1,0 +1,22 @@
+- what is golang actually ?
+
+- built in packages
+
+- values and variable
+    
+    - values
+
+        - String -> text
+
+        - int -> number without decimal places
+
+        - 
+    
+    - variable
+
+        - declare variable with var
+
+        - declare dynamic variable
+
+- comment 
+ 
