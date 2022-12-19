@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
 	// // declare variable
 	// var greetingText string
@@ -70,4 +74,11 @@ func main() {
 	// fmt.Println(userName)
 	// fmt.Println(userAge)
 
+	var runeValue rune = 'ص'
+	var byteValue byte = '9'
+
+	// fmt.Println(string(runeValue))
+	// fmt.Println(string(byteValue))
+	fmt.Println(runeValue)
+	fmt.Println(byteValue)
 }
