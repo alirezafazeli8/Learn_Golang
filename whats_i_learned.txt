@@ -10,7 +10,15 @@
 
         - int -> number without decimal places
 
-        - 
+        - float64
+
+        - float32
+
+        - boolean
+
+        - rune
+
+        - byte
     
     - variable
 
@@ -20,3 +28,7 @@
 
 - comment 
  
+
+- type conversion
+
+    - float64()
