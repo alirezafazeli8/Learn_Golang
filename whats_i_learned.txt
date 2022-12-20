@@ -34,3 +34,32 @@
     - float64()
 
     - string()
+
+    - int()
+
+- string formatting
+
+    - fmt package
+
+        - Print
+        
+        - Printf
+
+            - %v
+
+            - %T
+
+
+        - Println
+
+        - Sprint
+
+        - Sprintf
+
+        - Sprintln
+
+        - Fprint
+
+        - Fprintf
+
+        - Fprintln

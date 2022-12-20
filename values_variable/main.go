@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	// // declare variable
@@ -74,11 +72,40 @@ func main() {
 	// fmt.Println(userName)
 	// fmt.Println(userAge)
 
-	var runeValue rune = 'ص'
-	var byteValue byte = '9'
+	// var runeValue rune = 'ص'
+	// var byteValue byte = '9'
+
+	// // fmt.Println(string(runeValue))
+	// // fmt.Println(string(byteValue))
+	// fmt.Println(runeValue)
+	// fmt.Println(byteValue)
+
+	// var userName string = "Alireza"
+	// userName := "Alireza"
+
+	// var runeValue rune = 'ا'
+	// var byteValue byte = 'g'
 
 	// fmt.Println(string(runeValue))
 	// fmt.Println(string(byteValue))
-	fmt.Println(runeValue)
-	fmt.Println(byteValue)
+
+	firstName := "Alireza"
+	lastName := "Fazeli"
+	userAge := 18
+	// fmt.Println(firstName + " " + lastName)
+
+	// newNumber := int(2.1)
+
+	// fmt.Println(newNumber)
+
+	// printf -> string formatting
+
+	// fmt.Printf("Hello my name is %v %v and i have %v years old", firstName, lastName, userAge)
+	// fmt.Printf("\n Type of firstName : %T and Type of Age : %T", firstName, userAge)
+
+	// fullName := fmt.Sprintf("Hello Guys - My Names %v %v and i have %v years old", firstName, lastName, userAge)
+	fullName := fmt.Sprintf("%v %v %v", firstName, lastName, userAge)
+
+	fmt.Printf(fullName)
+
 }
