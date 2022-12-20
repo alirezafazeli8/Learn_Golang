@@ -24,7 +24,7 @@
 
         - declare variable with var
 
-        - declare dynamic variable
+        - declare variable with shorthand
 
 - comment 
  
